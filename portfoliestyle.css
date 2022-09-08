@@ -1,0 +1,42 @@
+body {
+    background: rgb(222,208,191);
+}
+
+p {font-family: "helvetica"; font-size: 19px;}
+ol {font}
+h1 {font-family: "helvetica", sans-serif; background: rgb(245,232,224); border: 4px solid black; border-bottom-left-radius: 30px}
+h2 {font-family: "helvetica";}
+
+
+#div1 {
+  width: 700px;
+  height: 300px;
+  margin: auto;
+  padding: 20px;
+  border-bottom-right-radius: 30px;
+  border: 4px solid black;
+  background: rgb(255,246,224);
+}
+
+#div2 {
+    width: 700px;
+    height: 670px;
+    margin: auto;
+    padding: 20px;
+    border-bottom-right-radius: 30px;
+    border: 4px solid black;
+    background: rgb(255,246,224);
+}
+
+.cursive {
+    font-size: 
+}
+.centertext {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
