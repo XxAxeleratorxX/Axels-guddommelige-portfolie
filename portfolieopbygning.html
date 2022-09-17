@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="UTF-8"> <title>Opbygning af portfolie </title> 
+    <link rel="stylesheet" href="portfoliestyle.css">
+</head>
+
+<body>
+    <h1 class="centertext">Sådan har jeg opbygget mit Guddommelige Portfolie</h1>
+    <div id="div1">
+        <h2 class="centertext">Farver</h2>
+        <p>Jeg har valgt at bruge <a  href="https://color.adobe.com/da/create/color-wheel" target="_blank">Adobe color wheel </a> til at lave et farvetema til mit website. <br> Jen valgte en forholdsvis neutral nuance af beige, da jeg tænkte det ikke ville være for iøjenfaldene.</p>
+        <embed type="image/png" src="adobe.png" width="690" height="auto" class="center">
+        <br>
+        <h2 class="centertext">Kode - html</h2>
+        <p>Eksempel 1:</p>
+        <pre>
+            <code>
+    &lt;head>
+    &lt;meta charset="UTF-8"> 
+    &lt;title>Axels portfolie&lt;/title> 
+    &lt;link rel="stylesheet" href="portfoliestyle.css">
+    &lt;/head>
+            </code>
+        </pre>
+        Inde i &lt;head> ses informationer om html dokumentet. &lt;meta charset="UTF-8"> betyder at hjemmesiden understøtter specialtegn (æ,ø,å), &lt;title> er hjemmesidens titel op i browserfanen og &lt;link> henviser til dokumentet for CSS styling.
+        <br>
+        <br>
+        <p>Eksempel 2:</p>
+        <pre>
+            <code>
+    &lt;h2 class="centertext">Her ses et smukt billede af mig&lt;/h2>
+    
+    &lt;embed type="image/png" src="axel.jpeg" 
+    width="690" height="auto" class="center">
+    
+    &lt;p class="cursive">Her kan Axel ses meget reflekterende. 
+    Han tænker over livet, og hvad meningen med det hele er.&lt;/p>
+            </code>
+        </pre>
+        Jeg har lavet en header og tilldelt den en class med &lt;h2 class="centertext"> (mere om CSS nedenfor). &lt;embed> bruges her for at importere et billede. Her har jeg sat heigh="auto" så højden automatisk vil skalere med billedets bredde. Til sidst laver jeg en paragraph med &lt;p class="cursive"> og tildeler den en CSS class.
+        <h2 class="centertext">Kode - CSS</h2>
+        <p>Eksempel 1:</p>
+        <pre>
+            <code>
+    body {
+        background: rgb(222,208,191);
+        font-family: "helvetica"; 
+        font-size: 15px;
+    }
+            </code>
+        </pre>
+        Alt inden for body{} gælder for hele dokumentet. Derfor har jeg defineret baggrundsfarven (efter Adobe Color Wheel), font og tekststørrelse. <br>
+        Når jeg f.eks. har skulle lave en alternativ styling til tekst, har jeg lavet en class i CSS og sat den class ind i html kommandoen som argument.
+        <pre>
+            <code>
+   .cursive {
+        font-size: 15px;
+        font-style: italic;
+    }
+            </code>
+        </pre>
+        <p>Eksempel 2:</p>
+        <pre>
+            <code>
+  #div1 {
+        width: 700px;
+        height: auto;
+        margin: auto;
+        padding: 20px;
+        border-bottom-right-radius: 30px;
+        border: 4px solid black;
+        background: rgb(255,246,224);
+        }
+            </code>
+        </pre>
+        Her definerer jeg div{}, som er en ramme for hvor indhold skal være. Jeg har givet den en bestemt bredde og en variabel højde vha. height: auto; <br>
+        Jeg har også lavet en baggrundsfarve med kommandoen background: rgb(255,246,224); og en sort kant der bliver afrundet i nederste højre hjørne vha. border-bottom-right-radius: 30px;. 
+    </div>
+</body>     
+</html>

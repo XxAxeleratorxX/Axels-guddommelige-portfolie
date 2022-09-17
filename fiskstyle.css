@@ -1,0 +1,12 @@
+body {
+  background-color: whitesmoke;
+}
+
+/* overskrift h1 design */
+h2{color:white; background: black;text-align: center; border-style: double}
+
+p{color: black}
+
+h3{text-align: center; background: black; border-style: dashed; color: orangered}
+
+h4{background: white; color: black}

@@ -1,16 +1,18 @@
 body {
     background: rgb(222,208,191);
+    font-family: "helvetica"; 
+    font-size: 15px;
 }
 
 p {font-family: "helvetica"; font-size: 19px;}
 ol {font-family: "helvetica";}
-h1 {font-family: "helvetica"; background: rgb(245,232,224); border: 4px solid black; border-bottom-right-radius: 15px;}
+h1 {font-family: "helvetica"; background: rgb(245,232,224); border: 4px solid black; border-bottom-right-radius: 15px}
 h2 {font-family: "helvetica";}
 
 
 #div1 {
   width: 700px;
-  height: 300px;
+  height: auto;
   margin: auto;
   padding: 20px;
   border-bottom-right-radius: 30px;
@@ -18,19 +20,19 @@ h2 {font-family: "helvetica";}
   background: rgb(255,246,224);
 }
 
-#div2 {
-    width: 700px;
-    height: 670px;
-    margin: auto;
-    padding: 20px;
-    border-bottom-right-radius: 30px;
-    border: 4px solid black;
-    background: rgb(255,246,224);
+pre code {
+    background-color: white;
+    display: block;
+    border: 2px solid black;
+    font-size: 15px;
+    color: dimgray;
 }
 
 .cursive {
-    font-size: 
+    font-size: 15px;
+    font-style: italic;
 }
+
 .centertext {
     text-align: center;
 }
