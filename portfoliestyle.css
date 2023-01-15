@@ -4,17 +4,68 @@ body {
     font-size: 15px;
 }
 
+.nav {
+  background-color: rgb(76,30,0);
+  overflow: hidden;
+}
+
+.nav a {
+  float: left;
+  color: rgb(230,190,124);
+  text-align: center;
+  padding: 18px 22px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav a:hover {
+  background-color: rgb(230,190,124);
+  color: rgb(76,30,0);
+}
+
+.nav a.active {
+  background-color: rgb(220,180,114);
+  color: rgb(76,30,0);
+}
+
 p {font-family: "helvetica"; font-size: 19px;}
 ol {font-family: "helvetica";}
-h1 {font-family: "helvetica"; background: rgb(245,232,224); border: 4px solid black; border-bottom-right-radius: 15px}
+/*h1 {font-family: "helvetica"; background: rgb(245,232,224); border: 4px solid black; border-bottom-right-radius: 15px} */
 h2 {font-family: "helvetica";}
 
 
-#div1 {
-  width: 700px;
+.div1 {
+  width: 40.5%;
   height: auto;
-  margin: auto;
+  position: absolute;
   padding: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-bottom-right-radius: 30px;
+  border: 4px solid black;
+  background: rgb(255,246,224);
+}
+
+
+.div2 {
+  width: 40.5%;
+  height: auto;
+  padding: 20px;
+  margin-right: 5%;
+  margin-left: 5%;
+  float: right;
+  border-bottom-right-radius: 30px;
+  border: 4px solid black;
+  background: rgb(255,246,224);
+}
+
+
+.cdiv {
+  width: 70%;
+  height: auto;
+  position: absolute;
+  padding: 20px;
+  left: 13%;
   border-bottom-right-radius: 30px;
   border: 4px solid black;
   background: rgb(255,246,224);
@@ -42,3 +93,4 @@ pre code {
     margin-left: auto;
     margin-right: auto;
 }
+
