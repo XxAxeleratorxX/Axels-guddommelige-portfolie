@@ -1,7 +1,58 @@
 body {
-    background: rgb(222,208,191);
-    font-family: "helvetica"; 
-    font-size: 15px;
+  margin: 0;
+  padding: 0;
+  font-family: "monaco", sans-serif; 
+  background-color: rgb(76,30,0);
+}
+
+.container1 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(billeder/pattern2.png);
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.container2 {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  box-sizing: border-box;
+}
+
+#baggrundsVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: auto;
+}
+
+#spilogleg {
+  margin-top: 2%;
+  width: 80%;
+  height: auto;
+  border: 5px solid black;
+}
+
+.spilknap {
+  border: none;
+  border-radius: 5px;
+  font-family: "monaco";
+  font-size: 30px;
+  padding: 2% 5%;
+  color: white;
+  background-color: rgb(36, 44, 199);
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  transition-duration: 0.5s;
+}
+
+.spilknap:hover {
+  background-color: rgb(70, 79, 250);
 }
 
 .nav {
@@ -24,52 +75,117 @@ body {
 }
 
 .nav a.active {
-  background-color: rgb(220,180,114);
-  color: rgb(76,30,0);
+  background-color: rgb(36, 44, 199);
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
 }
 
-p {font-family: "helvetica"; font-size: 19px;}
-ol {font-family: "helvetica";}
-/*h1 {font-family: "helvetica"; background: rgb(245,232,224); border: 4px solid black; border-bottom-right-radius: 15px} */
-h2 {font-family: "helvetica";}
-
+p {font-family: "monaco"; font-size: 17px;}
+h1 {font-family: "georgia"; font-size: 40px;}
+h2 {font-family: "georgia"; font-size: 30px;}
+ol {font-family: "monaco"; font-size: 15;}
 
 .div1 {
-  width: 40.5%;
+  width: 39%;
   height: auto;
   position: absolute;
   padding: 20px;
   margin-left: 5%;
   margin-right: 5%;
   border-bottom-right-radius: 30px;
-  border: 4px solid black;
-  background: rgb(255,246,224);
+  border: 7px solid rgb(76,30,0);
+  background:rgb(230,190,124);
+  box-shadow: 7px 7px 80px black;
 }
 
-
 .div2 {
-  width: 40.5%;
+  width: 39%;
   height: auto;
+  position: relative;
   padding: 20px;
   margin-right: 5%;
   margin-left: 5%;
   float: right;
   border-bottom-right-radius: 30px;
-  border: 4px solid black;
-  background: rgb(255,246,224);
+  border: 7px solid rgb(76,30,0);
+  background:rgb(230,190,124);
+  box-shadow: 7px 7px 80px black;
 }
 
-
-.cdiv {
-  width: 70%;
+.div-web {
+  width: 85%;
   height: auto;
   position: absolute;
   padding: 20px;
-  left: 13%;
+  margin-left: 5%;
+  margin-right: 5%;
   border-bottom-right-radius: 30px;
-  border: 4px solid black;
-  background: rgb(255,246,224);
+  border: 7px solid rgb(76,30,0);
+  background:rgb(230,190,124);
+  box-shadow: 7px 7px 80px black;
 }
+
+.div-vid {
+  position: absolute;
+  top: 10%;
+  height: auto;
+  width: 50%;
+  margin-left: 5%;
+  padding: 10px;
+  background: rgb(0,0,0,0.7);
+  box-shadow: 0px 0px 30px 30px rgb(0,0,0,0.7);
+}
+
+.div-vid2 {
+  width: 90%;
+  height: auto;
+  padding: 20px;
+  margin: auto;
+  padding-top: 0px;
+}
+
+.div-spil {
+ width: 60%;
+ height: 75%;
+ margin: 5%;
+ margin-top: 2%;
+ margin-bottom: 3%;
+ padding: 20px;
+ border-bottom-right-radius: 30px;
+ border: 7px solid rgb(76,30,0);
+ background:rgb(230,190,124);
+ box-shadow: 7px 7px 80px black;
+ position: absolute;
+}
+
+.div-spil2 {
+  width: 20%;
+  height: 80%;
+  margin: 5%;
+  left: 66%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  position: relative;
+  border-bottom-right-radius: 30px;
+  border: 7px solid rgb(76,30,0);
+  background:rgb(230,190,124);
+  box-shadow: 7px 7px 80px black;
+ }
+
+.div-p5 {
+  width: 100%;
+  height: 220%;
+  padding: 2px;
+  position: relative;
+  background-image: linear-gradient(to bottom right, white,rgb(36, 44, 199));
+  border-top: 7px solid rgb(76,30,0);
+}
+
+#p5 {
+  width: 800px;
+  height: 500px;
+}
+
 
 pre code {
     background-color: white;
@@ -82,6 +198,7 @@ pre code {
 .cursive {
     font-size: 15px;
     font-style: italic;
+    text-align: center;
 }
 
 .centertext {
@@ -92,5 +209,6 @@ pre code {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 4px solid rgb(76,30,0);
 }
 
