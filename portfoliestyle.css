@@ -23,6 +23,17 @@ body {
   box-sizing: border-box;
 }
 
+.container3 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(billeder/database.png);
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  position: relative;
+  background-attachment: fixed;
+}
+
 #baggrundsVideo {
   right: 0;
   bottom: 0;
@@ -53,6 +64,25 @@ body {
 
 .spilknap:hover {
   background-color: rgb(70, 79, 250);
+}
+
+.dataknap {
+  border: none;
+  border-radius: 5px;
+  font-family: "monaco";
+  font-size: 30px;
+  padding: 20px 50px;
+  color: rgb(230,190,124);
+  background-color: rgb(76,30,0);
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  transition-duration: 0.5s;
+}
+
+.dataknap:hover {
+  color: rgb(76,30,0);
+  background-color: rgb(230,190,124);
 }
 
 .nav {
@@ -181,10 +211,44 @@ ol {font-family: "monaco"; font-size: 15;}
   border-top: 7px solid rgb(76,30,0);
 }
 
-#p5 {
-  width: 800px;
-  height: 500px;
+.div-data-forside {
+  width: 65%;
+  height: auto;
+  position: relative;
+  margin-top: 8%;
+  margin-left: 8%;
 }
+
+.div-data-knap {
+  width: 45%;
+  height: auto;
+  position: relative;
+  margin: 4%;
+  align-items: center;
+}
+
+.div-data {
+  width: 65%;
+  height: auto;
+  position: relative;
+  margin-left: 5%;
+}
+
+.div-data-billede {
+  width: 45%;
+  height: auto;
+  position: absolute;
+  margin-left: 5%;
+}
+
+.div-data2 {
+  height: fit-content;
+  width: 98%;
+  padding: 2%;
+  background-image: linear-gradient(to bottom, black,rgb(36, 44, 199));
+  border-top: 7px solid rgb(76,30,0);
+}
+
 
 
 pre code {
